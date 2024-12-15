@@ -1,0 +1,95 @@
+.gradient-divider {
+    
+    height: 20px;
+    background: linear-gradient(45deg, rgb(255, 255, 255) 20%, #ff0000 20%  ); /* Adjust gradient colors as needed */
+ }
+ 
+nav{
+    background-color: antiquewhite;
+    height: 90px;
+    z-index:1;
+
+  }
+
+ 
+#mynav{
+    padding-left:280px;
+    z-index:1;
+
+}
+
+ul li{
+     font-size:16px;
+      margin-right:40px;
+
+
+     
+}
+.navbar a{
+    color: rgb(50, 49, 49);
+    font-family: Cursive;
+ 
+ 
+}
+ul li a:hover{
+    text-decoration: underline 4px;
+    text-decoration-color: orangered ;
+    color:black;
+    z-index:100;
+ }
+
+
+ 
+.dropdown .dropdown-menu a:hover{
+    text-decoration:none;
+    background-color:red ;
+    z-index:10;
+ 
+}
+ 
+@media (max-width: 768px) {
+    
+        
+     
+    
+    .navbar-collapse{
+    margin-top: -15px;
+    z-index:1;
+     
+    color:black;
+     }
+     #mynav{
+        text-align:center; 
+
+     }
+     ul {
+         background-color: azure;
+         width:100%;
+
+     }
+     p{
+        color:rgb(245, 242, 171)
+     }
+    
+   .navbar-nav ul li:hover{
+        border-bottom: solid;
+        border-color: orangered ;
+        z-index:100;
+        
+
+       }
+     
+      
+       .navbar-nav .dropdown-menu {
+        position: absolute;
+        top: 100%; /* Position the dropdown below the dropdown trigger */
+        right: 0; /* Align the dropdown with the right side of its container */
+        left: auto; /* Reset left positioning */
+       }
+    .footer2{
+        background-color: #07a12b;
+
+    }
+    
+    
+}

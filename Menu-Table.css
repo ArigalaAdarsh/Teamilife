@@ -1,0 +1,31 @@
+.card-img1{
+    width:150px;
+    height:130px;
+    margin:30px;
+    border-radius:10px;
+ 
+  }
+.card-img1:hover{
+    transform: scale(1.1);
+ 
+ }
+.card-title1{
+    font-family:Cursive;
+    font-size:22px;
+    color:  #ff0000;
+    text-align:center;
+
+ }
+ 
+table tr td .card-img1{
+    margin-top:20px;
+    margin-left:9px;
+
+
+}
+.butt{
+    
+    margin-top:-200px;
+
+}
+ 

@@ -1,0 +1,149 @@
+body{  
+  background-color:#f8fafb;
+
+
+}
+.nav{
+    border:0px solid;
+    margin-top:50px;
+    margin-left:0px;
+
+  }
+ .nav .nav-link{
+  color: black;
+  font-family: Cursive;
+  font-weight:800px;
+  line-height: 40px;
+
+ }
+ .nav .nav-link:hover{
+  border-bottom: 2px solid;
+  border-color:rgb(207, 2, 2);
+  background-color:#c5c336;
+ 
+ }
+
+
+ .tab-content{
+  margin-top:50px;
+  font-family:Arial;
+  color:black;
+
+ }
+.h3{
+ color:#e33a08;
+}
+
+
+.h5{
+  margin-top:10px;
+  margin-bottom:10px;
+  font-weight:600px;
+  color:#031637;
+}
+ 
+footer{
+  background-color: green;
+  color:white;
+}
+.white-color{
+  color:white;
+}
+
+   
+.carousel-control-next-icon {
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+width:20px;
+opacity:1px;
+margin-top:15px;
+color:black;
+
+}
+
+.carousel-control-prev-icon {
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+color:black;
+width:20px;
+margin-top:15px;
+}
+
+.myCarousel_1{
+  width:800px;
+  height:400px;
+  margin-top:150px;
+
+
+}
+ 
+
+.carousel-caption{
+  z-index:100;
+  color:#061145;
+}
+.curimage{
+  width:900px;
+  height:600px;
+}
+@media (max-width: 768px) {
+  .tab-content{
+    font-family:Arial;
+    color:black;
+    margin-left:140px;
+    margin-top: -680px;
+    font-size:16px;
+  
+   }
+   #tabimage{
+    margin-left:130px;
+    margin-top: -680px;
+   }
+   .heading4{
+    font-size:20px;
+    font-weight:bold;
+   }
+   .image4{
+    margin-top: 100px;
+ 
+   }
+   .nav .nav-link{
+    
+    line-height: 60px;
+  
+   }
+   .h3{
+    font-size:18px;
+   }
+   .h5{
+    font-size:16px;
+    font-weight:bold;
+
+   }
+   p{
+    font-size:14px;
+    color:black;
+ 
+   }
+
+   .nav{
+    border:0px solid;
+    margin-top:50px;
+    margin-left:-10px;
+
+  }
+ .nav .nav-link{
+  color: rgba(95, 38, 3, 0.732);
+  font-family: Cursive;
+  font-weight:bold;
+  line-height: 40px;
+  font-size:11px;
+
+ }
+ #myTabs .rawbutton1{
+  font-size: 16px;
+
+ }
+  
+
+
+  }
+ 

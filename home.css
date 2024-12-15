@@ -1,0 +1,113 @@
+.card .carder{
+    z-index: -1000;
+
+}
+.card-img .card_image{
+    height:00px;
+    z-index: -1000;
+
+  }
+.card-img-overlay {
+      margin-top:280px;
+}
+.c1{
+    color:black;
+    font-size: 22px;
+    font-weight: bold;
+}
+.quote{
+    color:rgb(8, 65, 116);
+    padding-left:60px;
+}
+ 
+.content{
+margin-top:80px;
+color:orangered;
+font-family: "Times New Roman", Times, serif; 
+
+}
+.matter{
+    font-family: "Times New Roman", Times, serif;
+    color:black;
+}
+#myTab1{
+    font-family:  Cursive;
+    color:red;
+   justify-content:center; 
+ }
+ .hrule {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 3px;
+    background: rgb(207, 2, 2);
+    margin-bottom: 50px;
+    opacity: 1;
+ }
+ .tabs .nav-link{
+    color:black;
+    font-size:22px;
+    z-index: 1;
+ }
+  .caption{
+    margin-top:-40px;
+    font-family: Cursive;
+    text-align:center;
+ }
+ 
+ @media (max-width: 768px) {
+    .tabs .nav-link{
+        color:black;
+        font-size:14px;
+        margin-right:-20px;
+     }
+     .tabs .nav-link:hover{
+        border-bottom: solid;
+        border-color: rgb(6, 84, 87) ;
+        z-index:1;
+     }
+     .cards{
+        justify-content: center;
+        padding-left: 100px;
+      }
+      .caption{
+        margin-left:-100px;
+      }
+      #accordionExample{
+         width:100%;
+      }
+       
+ }
+ .accordion .accordion-button2{
+   color:#190c52;
+   font-weight:800px;
+   font-family: Cursive;
+   border:1px solid;
+   
+ }
+ .accordion-content {
+   display: none;
+}
+.accordion-header.active {
+   background-color: #f2f2f2; 
+}
+.accordion-content.active {
+   display: block;
+   background-color: white;
+}
+.accordion-header {
+   background-color: #f2f2f2;
+   padding: 10px;
+   cursor: pointer;
+   transition: background-color 0.3s; 
+}
+footer{
+   background-color: green;
+   color:white;
+ }
+ .white-color{
+   color:white;
+ }
+      
+
+ 
