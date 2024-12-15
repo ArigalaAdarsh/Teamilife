@@ -45,7 +45,10 @@ You can view the demo of the Teamilife website [here](https://drive.google.com/f
 
 To get started, first clone the repository to your local machine by running the following command:
 
-``git clone https://github.com/ArigalaAdarsh/Teamilife.git
+``` bash
+git clone https://github.com/ArigalaAdarsh/Teamilife.git
+```
+
 ### 2. Update Database Connection Details
 
 Update the database connection details in the following PHP files:
@@ -55,8 +58,10 @@ Update the database connection details in the following PHP files:
 
 In both files, modify the database connection string as follows:
 
-``php
-$conn = mysqli_connect("localhost", "root", "", "wt_project"); // Replace "root", "" and "wt_project" with your own credentials if needed
+``` bash
+php $conn = mysqli_connect("localhost", "root", "", "wt_project"); // Replace "root", "" and "wt_project" with your own credentials if needed
+```
+
 ### 3. Run the Website
 
 After updating the database connection details, upload the project files to your local server (e.g., XAMPP or WAMP) and access it via the browser.
