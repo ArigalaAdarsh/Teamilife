@@ -8,7 +8,7 @@ Teamilife is a dynamic and informative website dedicated to the world of tea, of
 
 - **Tea Varieties:**
   - Explore different types of teas, coolers, shakes, and raw juices offered by TEA WORLD, one of India's largest tea manufacturers.
-  
+
 - **Product Information:**
   - Detailed descriptions of the teas, coolers, and shakes, along with ingredients, preparation methods, and health benefits.
 
@@ -45,23 +45,24 @@ You can view the demo of the Teamilife website [here](https://drive.google.com/f
 
 To get started, first clone the repository to your local machine by running the following command:
 
-```bash
-git clone https://github.com/ArigalaAdarsh/Teamilife.git
-
-
+``git clone https://github.com/ArigalaAdarsh/Teamilife.git
 ### 2. Update Database Connection Details
+
 Update the database connection details in the following PHP files:
 
-registration_database.php (for registration functionality)
-login_database.php (for login functionality)
+- `registration_database.php` (for registration functionality)
+- `login_database.php` (for login functionality)
 
-```bash
+In both files, modify the database connection string as follows:
+
+``php
 $conn = mysqli_connect("localhost", "root", "", "wt_project"); // Replace "root", "" and "wt_project" with your own credentials if needed
+### 3. Run the Website
 
-Contributing
+After updating the database connection details, upload the project files to your local server (e.g., XAMPP or WAMP) and access it via the browser.
+
+## Contributing
+
 If you'd like to contribute to the project, please fork the repository and create a pull request. We welcome your contributions!
 
-Note: Replace the placeholders with the correct database credentials for your server setup.
-
-
- 
+**Note:** Replace the placeholders with the correct database credentials for your server setup.
